@@ -1,4 +1,7 @@
 ﻿# EmailValidator-GO 
+
+link -> https://bamof25th.github.io/EmailValidator-GO/
+ 
 email-validator-html-css-js
 
 
