@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Checker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="logo">
+                <img src="img/mailpro.svg" alt="mail avg" style="">
+                ValidateGo</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+     </header>
+<!-- main -->
+     <main>
+        <div class="container">
+            <h1>Enter your e-mail to Validate</h1>
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <!-- <label for="username">Username:</label> -->
+                <input type="text" class="input-email" id="username" name="username" placeholder="Enter your email to validate" required>
+                <br><br>
+                <!-- Submit button -->
+                <input type="submit" value="Submit" class="btn" id="submitBtn">
+              </form>
+        </div>
+        <div  class="container">
+            <h2>Your Results</h2>
+             <div id="resultCont">
+                <h3>Your results will show here</h3>
+                
+             </div>
+        </div>
+     </main>
+<!-- footer  -->
+     <footer>
+        copyright ValidateGo.com| All Rights Reserved
+     </footer>
+
+
+
+    <Script src="js/index.js"></Script>
+</body>
+</html>

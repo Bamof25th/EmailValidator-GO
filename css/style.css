@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Rajdhani:wght@500&family=Roboto+Mono:wght@300&family=Tajawal&display=swap");
+
+/* basics important to remember in css */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Tajawal", sans-serif;
+}
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 19px 12px;
+  margin-top: 0px;
+}
+.logo img{
+    width: 13px;
+            
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 13px;
+  font-size: 13px;
+}
+
+ul li a {
+  color: white;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  color: #e1e4ee;
+}
+
+main {
+  min-height: 90vh;
+  padding: 2px;
+}
+
+.container {
+
+  max-width: 80vw;
+  margin: auto;
+}
+.container h1{
+    padding: 12px 0;
+
+}
+
+.input-email{
+    min-width: 244px;
+    
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.btn{
+    background: black ;
+    color: white;
+    width: 100px;
+    padding: 7px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#resultCon div::first-letter{
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        font-size: 12px;      
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 9px 0px ;
+
+    }
+    .logo span{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 13px;
+                
+    }
+}
